@@ -1,0 +1,137 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Journicle</title>
+    <meta name="title" content="Journicle" />
+    <meta
+      name="description"
+      content="Journicle is my digital canvas where coding adventures come to life."
+    />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io" />
+    <meta property="og:title" content="Journicle" />
+    <meta
+      property="og:description"
+      content="Journicle is my digital canvas where coding adventures come to life."
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io" />
+    <meta property="twitter:title" content="Journicle" />
+    <meta
+      property="twitter:description"
+      content="Journicle is my digital canvas where coding adventures come to life."
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <img
+          src="assets/android-chrome-512x512.png"
+          alt="Journicle Logo"
+          draggable="false"
+          class="logo"
+        />
+        <h1>Journicle</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="featured-post">
+        <p class="post-date">November 21, 2021</p>
+        <h2 class="post-title">
+          <a href="https://github.com/n4itik/TubeRate" target="_blank"
+            >TubeRate</a
+          >
+        </h2>
+        <p class="post-description">
+          It allows the user to view ratings of YouTube videos which will be
+          based on sentiment analysis performed on the comments of those videos.
+        </p>
+        <img
+          src="assets/tuberate.png"
+          alt="TubeRate Screenshot"
+          draggable="false"
+          class="post-image"
+        />
+        <h3>Emotion-Based Ratings</h3>
+        <p>
+          TubeRate employs a two-step process. First, it extracts comments from
+          the video. Second, it utilizes sentiment analysis to determine the
+          emotions conveyed within these comments. These emotions are then
+          translated into ratings on a 1 to 5 scale. For instance, a rating of 1
+          signifies extreme dissatisfaction, while a rating of 5 represents a
+          high level of satisfaction.
+        </p>
+        <h3>Streamlined User Experience</h3>
+        <p>
+          The app offers a user-friendly interface. Users simply input the video
+          URL, and the app handles the rest. Leveraging the power of Flask and
+          Bootstrap, TubeRate ensures smooth and responsive interactions. The
+          use of Flask enables real-time processing, while Bootstrap guarantees
+          an appealing and intuitive design, showcasing the emotion-based
+          ratings prominently for users' quick comprehension.
+        </p>
+      </section>
+
+      <h2 class="recents-title">Recent Posts</h2>
+      <section class="recents"></section>
+    </main>
+    <footer>
+      <a href="https://bento.me/naitik" target="_blank">&copy; Naitik Yadav</a>
+    </footer>
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
