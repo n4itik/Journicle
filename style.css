@@ -109,7 +109,6 @@ a {
   background: var(--background) url("assets/tuberate-bg.png");
   background-size: cover;
   color: #fff;
-  text-shadow: 1px 1px 1px #000;
   cursor: pointer;
 }
 
