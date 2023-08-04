@@ -251,9 +251,13 @@ footer {
     padding: 1em 3em;
   }
 
+  .featured {
+    height: 400px;
+  }
+
   .featured,
   .about-me {
-    height: min(700px, calc(100vh - 8em));
+    padding-bottom: 4em;
   }
 
   .featured-post,
