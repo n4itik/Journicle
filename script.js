@@ -3,14 +3,14 @@ import { postsArray } from "./data.js";
 // Home
 const title = document.querySelector(".title");
 title.addEventListener("click", () => {
-  window.location.href = "index.html";
+  window.location.href = "https://journicle.netlify.app";
 });
 
 // Featured Post
 const featured = document.querySelector(".featured");
 if (featured) {
   featured.addEventListener("click", () => {
-    window.location.href = "featured.html";
+    window.location.href = "https://journicle.netlify.app/featured";
   });
 }
 
