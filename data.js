@@ -1,8 +1,16 @@
 export const postsArray = [
   {
+    title: "QuikColor",
+    description:
+      " It is a color scheme generator allowing the user to effortlessly create stunning color schemes from a single color, providing monochrome, analogic, complement, triad, and quad color schemes in an instant.",
+    date: "August 21, 2023",
+    image: "assets/quikcolor.png",
+    url: "https://quikcolor.netlify.app/",
+  },
+  {
     title: "Yumzaar",
     description:
-      "It is a basic food ordering web app. The users can add items from the menu to their cart and place an order. A payment modal pops up, after which the order is confirmed.",
+      "It is a food ordering web app. The users can add items from the menu to their cart and place an order. A payment modal pops up, after which the order is confirmed.",
     date: "August 1, 2023",
     image: "assets/yumzaar.png",
     url: "https://yumzaar.netlify.app/",
@@ -18,7 +26,7 @@ export const postsArray = [
   {
     title: "Cartizee",
     description:
-      "It is a simple shopping cart application built using Firebase as its database, allowing users to add items to their cart. Just a simple click on the item will remove it from the cart.",
+      "It is a shopping cart application built using Firebase as its database, allowing users to add items to their cart. Just a simple click on the item will remove it from the cart.",
     date: "June 14, 2023",
     image: "assets/cartizee.png",
     url: "https://cartizee.netlify.app/",
@@ -26,7 +34,7 @@ export const postsArray = [
   {
     title: "ScaleSwap",
     description:
-      "It is a basic unit conversion web app, allowing the user to convert quantities such as length, volume and mass from metric units to imperial and vice versa.",
+      "It is a unit conversion web app, allowing the user to convert quantities such as length, volume and mass from metric units to imperial and vice versa.",
     date: "June 3, 2023",
     image: "assets/scaleswap.png",
     url: "https://scaleswap.netlify.app/",
@@ -34,17 +42,9 @@ export const postsArray = [
   {
     title: "ProtectPals",
     description:
-      "It is a simple password generator that randomly generates two 16-character passwords, that are generated using a combination of uppercase and lowercase letters, numbers and symbols.",
+      "It is a password generator that randomly generates two 16-character passwords, that are generated using a combination of uppercase and lowercase letters, numbers and symbols.",
     date: "June 2, 2023",
     image: "assets/protectpals.png",
     url: "https://protectpals.netlify.app/",
-  },
-  {
-    title: "Dropsushi",
-    description:
-      "This landing page serves as the online gateway for a Japanese food delivery service, providing customers with a convenient platform to explore and order a wide range of delicious Japanese dishes.",
-    date: "May 21, 2023",
-    image: "assets/dropsushi.png",
-    url: "https://dropsushi.netlify.app/",
   },
 ];
